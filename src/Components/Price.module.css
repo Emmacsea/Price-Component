@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(240, 78%, 98%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2 {
+    color:hsl(233, 13%, 49%);
+    font-size: 1.3em;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1.1em;
+}
+
+.container .date {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0 1.12em;
+}
+
+.date h4 {
+    color: hsl(234, 14%, 74%);
+    font-size: .9em;
+    font-weight: 300;
+}
+
+.date .btn {
+    outline: none;
+    border: none;
+    font-size: .7em;
+    padding: .7em;
+    width: 100%;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border-radius: .5em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.container .pricez {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricez .basmas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 100%);
+    padding: 1em 1.7em;
+    width: 300px;
+    height: auto;
+    border-radius: .5em;
+}
+
+.basmas h5 {
+    text-align: center;
+    
+    color: hsl(233, 13%, 49%);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.basmas .bmprice {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-size: 1.6em;
+    font-weight: 900;
+    padding-bottom: .3em;
+    color: hsl(232, 13%, 33%);
+}
+
+.basmas .bmprice span {
+    font-size: 2.3em;
+}
+
+.basmas ul {
+    width: 100%;
+}
+
+.basmas ul li:first-child {
+    border-top: 1px solid hsl(240, 78%, 98%);
+}
+
+.basmas ul li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid hsl(240, 78%, 98%);
+    list-style: none;
+    padding: .4em 0;
+}
+
+.basmas .button {
+    outline: none;
+    border: none;
+    font-size: .7em;
+    padding: .7em;
+    margin-top: 1.2em;
+    width: 100%;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border-radius: .5em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.pricez .pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    padding: 1em 1.7em;
+    width: 300px;
+    height: 340px;
+    box-shadow: .3em .1em .7em .4em  rgba(0,0,0,.2);
+    border-radius: .5em;
+    color:  hsl(240, 78%, 98%);
+}
+
+.pro h5 {
+    text-align: center;    
+    color:  hsl(240, 78%, 98%);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.pro .pprice {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-size: 1.6em;
+    font-weight: 900;
+    padding-bottom: .3em;
+    color:  hsl(240, 78%, 98%);
+}
+
+.pro .pprice span {
+    font-size: 2.3em;
+}
+
+.pro ul {
+    width: 100%;
+}
+
+.pro ul li:first-child {
+    border-top: 1px solid hsl(234, 14%, 74%);
+}
+
+.pro ul li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+    list-style: none;
+    padding: .4em 0;
+}
+
+.pro .button {
+    outline: hsl(237, 63%, 64%);
+    border: none;
+    font-size: .7em;
+    padding: .7em;
+    margin-top: 1.2em;
+    width: 100%;
+    text-align: center;
+    color: hsl(237, 63%, 64%);
+    background: hsl(240, 78%, 98%);
+    border-radius: .4em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
